@@ -55,7 +55,8 @@ body {
 }
 
 .editor-header {
-    background: linear-gradient(135deg, var(--mantle), var(--surface0));
+    /*background: linear-gradient(135deg, var(--mantle), var(--surface0));*/
+    background-color: var(--mantle);
     padding: 14px 20px;
     display: flex;
     align-items: center;
@@ -140,7 +141,8 @@ body {
 }
 
 .editor-status {
-    background: linear-gradient(135deg, var(--mantle), var(--surface0));
+    /*background: linear-gradient(135deg, var(--mantle), var(--surface0));*/
+    background-color: var(--mantle);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
