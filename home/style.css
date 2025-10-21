@@ -108,3 +108,8 @@ body {
     align-items: center;
 }
 
+.app-icon:hover {
+    background-color: var(--blue);
+    color: var(--crust);
+}
+
