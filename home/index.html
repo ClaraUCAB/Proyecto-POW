@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Winux</title>
+</head>
+<body>
+    <div id="desktop">
+        <div id="shortcuts-window" class="window">
+            <div id="shortcuts-titlebar" class="titlebar">DISPLAY</div>
+            <div id="shortcuts-view">
+                <div id="furryfox" class="app-icon">
+                    <img src="/assets/furryfox_logo250x250.png" width="50">
+                    <p>Furryfox</p>
+                </div>
+
+                <div id="files" class="app-icon">
+                    <img src="/assets/files_logo250x250.png" width="50">
+                    <p>Files</p>
+                </div>
+
+                <div id="editor" class="app-icon">
+                    <img src="/assets/editor_logo250x250.png" width="50">
+                    <p>Editor</p>
+                </div>
+
+                <div id="terminal" class="app-icon">
+                    <img src="/assets/terminal_logo250x250.png" width="50">
+                    <p>Terminal</p>
+                </div>
+            </div>
+        </div>
+        <div id="application-window" class="window">
+            <div id="application-titlebar" class="titlebar">APPLICATION</div>
+            <div id="application-view">
+                <iframe id="current-app-iframe" src="/editor"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
