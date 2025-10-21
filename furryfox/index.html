@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Furryfox Browser</title>
+</head>
+<body>
+    <div id="screen">
+        <div id="controls-div">
+            <button id="history-back-button" class="control-button" onclick="onHistoryBackButtonClicked()"></button>
+            <button id="history-forward-button" class="control-button" onclick="onHistoryForwardButtonClicked()"></button>
+            <button id="reload-button" class="control-button" onclick="onReloadButtonClicked()"></button>
+            <button id="search-button" class="control-button" onclick="onSearchButtonClicked()"></button>
+            <input type="text" id="searchbar-input" placeholder="Enter an address here...">
+        </div>
+        <div id="page-div">
+            <iframe id="page-iframe" frameBorder="0" src=""></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
